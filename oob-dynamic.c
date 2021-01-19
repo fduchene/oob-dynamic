@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-// Example from http://cppcheck.sourceforge.net/
+// Based on the example from http://cppcheck.sourceforge.net/
 void oob(int x)
 {
     int buf[10];
